@@ -1,9 +1,12 @@
 package application.model;
 
+import jakarta.persistence.Entity;
+
+@Entity
 public class Diretor {
     private Long id;
     private String nome;
-    
+
     public Long getId() {
         return id;
     }
